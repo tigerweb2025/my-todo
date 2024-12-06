@@ -2,7 +2,7 @@
 
 # we have 3 sections in my todo app
   - Todo ("Every new task is added to the Todo section").
-  - TTrash section ("If you accidentally deleted your task, you can find it in the Trash section").
+  - Trash section ("If you accidentally deleted your task, you can find it in the Trash section").
   - Done section ("This section lets you know what you have accomplished"). 
 
 # others
