@@ -3,10 +3,16 @@
         {
             "src": "vite.config.js",
             "use": "@vercel/static-build",
-            "config": {}
+            "config": {
+                "distDir": "dist"
+            }
         }
     ],
     "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "/api/$1"
+        },
         {
             "source": "/(.*)",
             "destination": "/index.html"
